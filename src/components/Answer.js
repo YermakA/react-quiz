@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Answer = () => {
+const Answer = ({ answerText }) => {
     return (
         <div className='answer'>
             <div className='answer-letter'>A</div>
-            <div className='answer-text'> text of the answer</div>
+            <div className='answer-text'> {answerText}</div>
         </div>
     );
 }
